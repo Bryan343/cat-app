@@ -4,16 +4,14 @@ body {
 }
 .header {
     display: grid;
-    grid-template-columns: 20% 40% 20%;
-    gap: 10%;
+    grid-template-columns: 10% 40% 20%;
+    gap: 15%;
     padding: 30px;
 }
 .header-containers {
     display: flex;
     justify-content: space-evenly;
 }
-
-
-div {
-    border: 1px solid red;
+.logo {
+    height: 60px;
 }
