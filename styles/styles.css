@@ -2,18 +2,29 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .header {
     display: grid;
     grid-template-columns: 20% 40% 20%;
     gap: 10%;
     padding: 30px;
 }
+
 .header-containers {
     display: flex;
     justify-content: space-evenly;
 }
 
+.secondary-button {
+    color: black;
+    border: none;
+    background-color: rgb(243, 231, 57);
+    padding: 10px;
+    border-radius: 10%;
+    font-weight: bolder;
+}
 
-div {
-    border: 1px solid red;
+.secondary-button:hover {
+    cursor: pointer;
+    background-color: rgb(233, 221, 60);
 }
