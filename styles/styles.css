@@ -7,8 +7,8 @@ body {
     display: grid;
     grid-template-columns: 10% 40% 20%;
     gap: 15%;
-    padding: 30px;
-    height: 100px;
+    padding: 20px;
+    background-color: rgb(142, 100, 182);
 }
 
 .header-containers {
@@ -18,7 +18,9 @@ body {
 }
 
 .logo {
-    height: 80px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .button {
@@ -36,17 +38,17 @@ body {
 
 .main-button:hover {
     cursor: pointer;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(41, 41, 41);
 }
 
 .secondary-button {
     color: black;
-    background-color: rgb(243, 231, 57);
+    background-color: rgb(189, 224, 34);
 }
 
 .secondary-button:hover {
     cursor: pointer;
-    background-color: rgb(233, 221, 60);
+    background-color: rgb(177, 209, 34);
 }
 
 .search {
@@ -57,24 +59,31 @@ body {
 .search-bar {
     display: flex;
     border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.678);
     padding: 10px;
     border-radius: 5px;
     width: 100%;
 }
 
 .search-bar:focus-within {
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
     border-radius: 5px;
 }
 
 .search-input {
     width: 100%;
+    background-color: transparent;
 }
 
 .search-input > input {
     outline: none;
     border: none;
     width: 100%;
+    background-color: transparent;
+}
+
+.search-icon {
+    cursor: pointer;
 }
 
