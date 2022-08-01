@@ -1,11 +1,6 @@
-import Header from "components/Header";
-
-function CuteCat() {
+const CuteCat = () => {
     return (
-        <div>
-            <Header />
-            This is the information page for the cute cat.
-        </div>
+        <div>This is the information page for the cute cat.</div>
     )
 }
 

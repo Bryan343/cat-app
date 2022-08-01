@@ -1,10 +1,13 @@
 import logo from 'media/logo.png';
+import { Link } from 'react-router-dom';
 
-function Header() {
+const Header = () => {
     return (
         <header className="header">
         <div className="header-containers logo">
-            <img className="logo" src={logo} alt="Logo" />
+            <Link to="">
+                <img className="logo" src={logo} alt="Logo" />
+            </Link>
         </div>
         <div className="header-containers search">
             <div className="search-bar">
@@ -22,6 +25,6 @@ function Header() {
         </div>
       </header>
     );
-}
+};
 
 export default Header;

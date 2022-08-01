@@ -1,4 +1,4 @@
-function CatCard(card) {
+const CatCard = (card) =>  {
     return (
         <div className="cat-card">
             <div className="cat-card-img">
@@ -25,6 +25,6 @@ function CatCard(card) {
             </div>
         </div>
     );
-}   
+};
 
 export default CatCard;

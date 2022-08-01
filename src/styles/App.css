@@ -4,6 +4,22 @@ body {
   background-color: rgb(247, 247, 247);
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container > main {
+  height: 100%;
+}
+
+.main-container > footer {
+  background-color: rgb(142, 100, 182);
+  padding: 20px;
+  color: white;
+}
+
 .header {
   display: grid;
   grid-template-columns: 10% 40% 20%;
@@ -86,11 +102,6 @@ body {
 
 .search-icon {
   cursor: pointer;
-}
-
-.main-content {
-  background-color: transparent; 
-  padding: 0 200px 0 200px;
 }
 
 .cat-cards-container {
